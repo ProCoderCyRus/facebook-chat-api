@@ -85,14 +85,17 @@ function buildAPI(globalOptions, html, jar) {
   };
 
   const apiFuncNames = [
+     'addExternalModule',
     'addUserToGroup',
     'changeAdminStatus',
     'changeArchivedStatus',
+    'changeBio',
     'changeBlockedStatus',
     'changeGroupImage',
     'changeNickname',
     'changeThreadColor',
     'changeThreadEmoji',
+    'createNewGroup',
     'createPoll',
     'deleteMessage',
     'deleteThread',
@@ -112,6 +115,7 @@ function buildAPI(globalOptions, html, jar) {
     'markAsDelivered',
     'markAsRead',
     'markAsReadAll',
+    'markAsSeen',
     'muteThread',
     'removeUserFromGroup',
     'resolvePhotoUrl',
@@ -119,6 +123,7 @@ function buildAPI(globalOptions, html, jar) {
     'sendMessage',
     'sendTypingIndicator',
     'setMessageReaction',
+    'setPostReaction',
     'setTitle',
     'threadColors',
     'unsendMessage',
